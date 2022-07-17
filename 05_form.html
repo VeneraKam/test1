@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Form</h1>
+
+    <form>
+
+        <div>
+            <label for="text">Text:</label>
+            <input type="text" id="text" value="write some text" readonly>
+        </div>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email@mal.ru">
+        </div>  
+        
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+        </div>  
+
+        <div>
+            <label for="number">Number:</label>
+            <input type="number" id="number" min="0" max="10">
+        </div>
+
+        <div>
+            <label for="range">Range:</label>
+            <input type="range" id="range" min="0" max="10" step="2">
+        </div>
+
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+        </div> 
+
+        <div>
+            <label for="color">Color:</label>
+            <input type="color" id="color">
+        </div>
+
+        <div>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="10" rows="10">Message</textarea>
+        </div>
+
+        <div>
+            <label for="gender">Gender:</label>
+            <select name="gender" id="gender">
+                <option value="empty" selected></option>
+                <option value="male">Man</option>
+                <option value="female">Woman</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="radio">Radio:</label>
+            <input type="radio" name="gr_radio" id="radio1">1
+            <input type="radio" name="gr_radio" id="radio2">2
+            <input type="radio" name="gr_radio" id="radio3">3
+            <input type="radio" name="gr_radio" id="radio4">4
+            <input type="radio" name="gr_radio" id="radio5">5
+        </div>
+
+        <div>
+            <label for="checkbox">Checkbox:</label>
+            <input type="checkbox" name="gr_checkbox" id="checkbox1">a
+            <input type="checkbox" name="gr_checkbox" id="checkbox2">b
+            <input type="checkbox" name="gr_checkbox" id="checkbox3">c
+            <input type="checkbox" name="gr_checkbox" id="checkbox4">d
+            <input type="checkbox" name="gr_checkbox" id="checkbox5">e
+        </div>
+
+        <!-- <input type="submit" value="Send form"> -->
+
+        <div>
+            <label for="file">File:</label>
+            <input type="file" id="file">
+        </div>
+
+        <button type="submit">Send</button>
+
+    </form>
+
+</body>
+</html>
